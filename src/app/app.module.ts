@@ -26,7 +26,7 @@ const routes: Routes = [
     HttpClientModule,
     FormsModule
   ],
-  providers: [AppService]
+  providers: [AppService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
